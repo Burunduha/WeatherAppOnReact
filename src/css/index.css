@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #121212;
+    font-family: 'Inter', sans-serif;
+    color: #ffd15b;
+}
+
+.sun {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+}
+
+.main {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.main>div {
+    width: 500px;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+    color: #ffd15b;
+}
+
+form input::placeholder {
+    color: #a27d21
+}
+
+form input {
+    width: 200px;
+    margin-bottom: 20px;
+    display: block;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    padding: 14px 17px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    background: #ffd15b;
+    color: #a6801f;
+    font-size: 15px;
+}
+
+form input:focus {
+    border-color: #c5910e;
+}
+
+form button,
+.city button {
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 15px;
+    background: #FFC244;
+    cursor: pointer;
+    color: #8a6915;
+    transition: all 500ms ease;
+    font-weight: 600;
+}
+
+form button:hover {
+    background: #c5910e;
+    color: #5d450a;
+    transform: translateY(-5px);
+}
+
+.city {
+    position: relative;
+    margin-bottom: 20px;
+    background: #979797;
+    padding: 20px;
+    width: 170px;
+    color: #454545;
+}
+
+.city img {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 70px;
+    height: 70px;
+}
+
+.city button {
+    margin-top: 15px;
+    padding: 7px 10px;
+    background: #626262;
+    color: #2e2e2e;
+    font-weight: 400;
+}
+
+.city button:hover {
+    background: #9b1414;
+    color: #330404;
+    transform: translateY(-5px);
+}
